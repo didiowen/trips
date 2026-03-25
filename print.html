@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>伊比利半島之旅_完整景點與餐廳版</title>
+<style>
+  @media print {
+    @page { size: A5; margin: 0.8cm; }
+    body { background: white !important; font-size: 11pt; }
+    .no-print { display: none; }
+    .day-card { page-break-inside: avoid; border: 1px solid #eee !important; margin-bottom: 12px !important; }
+    .hero { padding: 1rem !important; background: #2c1a0e !important; color: white !important; -webkit-print-color-adjust: exact; }
+  }
+
+  body { font-family: "Microsoft JhengHei", "微軟正黑體", sans-serif; line-height: 1.5; color: #1a1a1a; max-width: 800px; margin: 0 auto; background: #f4f4f4; }
+  .hero { background: #2c1a0e; color: white; padding: 1.5rem; text-align: center; border-radius: 0 0 10px 10px; -webkit-print-color-adjust: exact; }
+  .hero h1 { font-size: 1.8rem; margin: 0.3rem 0; color: #f5efe6; }
+  .hero-meta { font-size: 0.9rem; color: #c8b89a; }
+
+  .day-card { background: white; margin: 12px 8px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); overflow: hidden; border: 1px solid #ddd; }
+  
+  .madrid-hdr { border-left: 8px solid #c4623a; background: #fdf4ed; }
+  .sevilla-hdr { border-left: 8px solid #b8953a; background: #fffbf0; }
+  .lisbon-hdr { border-left: 8px solid #2d5a7b; background: #f0f6fc; }
+  .porto-hdr { border-left: 8px solid #3a6b4a; background: #f0f7f2; }
+  .barcelona-hdr { border-left: 8px solid #7a4a9a; background: #f5f0fa; }
+  .transit-hdr { border-left: 8px solid #999; background: #f5f5f5; }
+
+  .day-header { padding: 10px 15px; display: flex; align-items: center; -webkit-print-color-adjust: exact; }
+  .day-num { font-size: 1.6rem; font-weight: bold; color: #444; margin-right: 12px; min-width: 45px; }
+  .day-title h2 { margin: 0; font-size: 1.2rem; color: #000; }
+  .day-date { font-size: 0.9rem; color: #666; font-weight: bold; }
+
+  .walk-warn { background: #fdf0ee; color: #c0392b; padding: 6px 15px; font-size: 0.9rem; border-bottom: 1px solid #f5c6bc; font-weight: bold; -webkit-print-color-adjust: exact; }
+
+  .timeline { padding: 10px 15px; }
+  .item { display: flex; margin-bottom: 8px; }
+  .time { min-width: 55px; font-weight: bold; color: #c4623a; font-size: 1rem; }
+  .desc { flex: 1; }
+  .spot-name { font-weight: bold; display: block; font-size: 1.05rem; }
+  .spot-detail { color: #444; font-size: 0.95rem; display: block; line-height: 1.4; }
+
+  .tag { font-size: 0.8rem; padding: 1px 4px; border-radius: 3px; margin-right: 5px; vertical-align: middle; font-weight: bold; border: 1px solid; }
+  .tag-food { color: #b8953a; border-color: #b8953a; }
+  .tag-spot { color: #2d5a7b; border-color: #2d5a7b; }
+
+  .hotel-info { background: #f8f3eb; padding: 8px 15px; font-weight: bold; font-size: 1rem; border-top: 1px dashed #ccc; -webkit-print-color-adjust: exact; }
+  .print-btn { position: fixed; top: 15px; right: 15px; padding: 10px 15px; background: #c4623a; color: white; border: none; border-radius: 5px; cursor: pointer; z-index: 1000; }
+</style>
+</head>
+<body>
+
+<button class="print-btn no-print" onclick="window.print()">直接列印</button>
+
+<div class="hero">
+  <h1>2026 西班牙 & 葡萄牙之旅</h1>
+  <div class="hero-meta">03/27 – 04/12 · 景點與美食手冊</div>
+</div>
+
+<div class="day-card transit">
+  <div class="day-header transit-hdr">
+    <div class="day-num">D0</div>
+    <div class="day-title"><div class="day-date">3/26 (四) 啟程</div><h2>台南→高雄→香港</h2></div>
+  </div>
+  <div class="timeline">
+    <div class="item"><div class="time">15:30</div><div class="desc"><span class="spot-name">🚗 包車 台南 → 高雄小港機場 (KHH)</span></div></div>
+    <div class="item"><div class="time">19:25</div><div class="desc"><span class="spot-name">✈ CX459 高雄 → 香港 (HKG)</span><span class="spot-detail">國泰航空，約 21:10 抵達，機場貴賓室用晚餐等候轉機</span></div></div>
+  </div>
+</div>
+
+<div class="day-card madrid">
+  <div class="day-header madrid-hdr">
+    <div class="day-num">D1</div>
+    <div class="day-title"><div class="day-date">3/27 (五) 馬德里</div><h2>抵達馬德里 · 麗池公園</h2></div>
+  </div>
+  <div class="timeline">
+    <div class="item"><div class="time">12:00</div><div class="desc"><span class="spot-name"><span class="tag tag-food">美食</span>Mercado de la Paz</span><span class="spot-detail">在 Salamanca 區優雅市場午餐，品嚐火腿與熟食。</span></div></div>
+    <div class="item"><div class="time">14:30</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>麗池公園 (Parque del Retiro)</span><span class="spot-detail">參觀水晶宮，悠閒漫步調整時差。</span></div></div>
+  </div>
+  <div class="hotel-info">🛏 住宿：Ayala 63 (精品公寓)</div>
+</div>
+
+<div class="day-card madrid">
+  <div class="day-header madrid-hdr">
+    <div class="day-num">D2</div>
+    <div class="day-title"><div class="day-date">3/28 (六) 馬德里</div><h2>馬德里皇宮 · 主教座堂</h2></div>
+  </div>
+  <div class="timeline">
+    <div class="item"><div class="time">10:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>馬德里皇宮 (Palacio Real)</span><span class="spot-detail">含廚房特展 (14:15)。歐洲現存最大皇家宮殿。</span></div></div>
+    <div class="item"><div class="time">15:15</div><div class="desc"><span class="spot-name"><span class="tag tag-food">美食</span>El Anciano Rey de los Vinos</span><span class="spot-detail">皇宮旁百年老店，招牌是傳統 tapas 與葡萄酒。</span></div></div>
+    <div class="item"><div class="time">18:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>阿穆德納聖母主教座堂</span><span class="spot-detail">馬德里地標教堂，與皇宮相對，傍晚陽光極美。</span></div></div>
+  </div>
+</div>
+
+<div class="day-card madrid">
+  <div class="day-header madrid-hdr">
+    <div class="day-num">D3</div>
+    <div class="day-title"><div class="day-date">3/29 (日) 馬德里</div><h2>跳蚤市場 · 普拉多博物館</h2></div>
+  </div>
+  <div class="timeline">
+    <div class="item"><div class="time">09:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>El Rastro 跳蚤市場</span><span class="spot-detail">週日限定！馬德里最大的露天市集，尋寶好去處。</span></div></div>
+    <div class="item"><div class="time">14:30</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>普拉多博物館 (Museo del Prado)</span><span class="spot-detail">世界頂尖藝術館，必看《宮娥》等大師名畫。</span></div></div>
+  </div>
+</div>
+
+<div class="day-card transit">
+  <div class="day-header transit-hdr">
+    <div class="day-num">D4</div>
+    <div class="day-title"><div class="day-date">3/30 (一) 移動日</div><h2>高鐵往塞維亞 · 舊城導覽</h2></div>
+  </div>
+  <div class="walk-warn">⚠️ 導覽步行約 5.5 公里，建議結束後搭計程車回旅館。</div>
+  <div class="timeline">
+    <div class="item"><div class="time">13:00</div><div class="desc"><span class="spot-name">🚄 AVE 高速列車</span><span class="spot-detail">從馬德里搭車，15:39 抵達塞維亞。</span></div></div>
+    <div class="item"><div class="time">17:30</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>塞維亞歷史建築導覽</span><span class="spot-detail">西班牙廣場、舊菸草工廠、大教堂與王宮外觀。</span></div></div>
+  </div>
+  <div class="hotel-info">🛏 住宿：Casa del Contratador (精品公寓)</div>
+</div>
+
+<div class="day-card sevilla">
+  <div class="day-header sevilla-hdr">
+    <div class="day-num">D5</div>
+    <div class="day-title"><div class="day-date">3/31 (二) 塞維亞</div><h2>私人宮殿 · 美術博物館</h2></div>
+  </div>
+  <div class="timeline">
+    <div class="item"><div class="time">09:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>卡薩皮拉托斯宮 (Casa de Pilatos)</span><span class="spot-detail">精美的私人宮殿，瓷磚裝飾與庭院花園美不勝收。</span></div></div>
+    <div class="item"><div class="time">13:00</div><div class="desc"><span class="spot-name"><span class="tag tag-food">美食</span>Eneko Basque Kitchen</span><span class="spot-detail">米其林主廚經營，精緻的巴斯克風格創意料理。</span></div></div>
+    <div class="item"><div class="time">15:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>塞維亞美術博物館</span><span class="spot-detail">17 世紀修道院改建，收藏眾多黃金時代名畫。</span></div></div>
+  </div>
+</div>
+
+<div class="day-card sevilla">
+  <div class="day-header sevilla-hdr">
+    <div class="day-num">D6</div>
+    <div class="day-title"><div class="day-date">4/01 (三) 塞維亞</div><h2>王家城堡 · 塞維亞大教堂</h2></div>
+  </div>
+  <div class="timeline">
+    <div class="item"><div class="time">09:30</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>王家城堡 (Real Alcázar)</span><span class="spot-detail">穆德哈爾式建築巔峰，《冰與火之歌》取景地。</span></div></div>
+    <div class="item"><div class="time">13:00</div><div class="desc"><span class="spot-name"><span class="tag tag-food">美食</span>Tradevo Centro</span><span class="spot-detail">創意西班牙料理，在地評價極高的現代風味。</span></div></div>
+    <div class="item"><div class="time">15:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>塞維亞大教堂 & 希拉爾達塔</span><span class="spot-detail">全球第三大教堂，可登塔俯瞰全塞維亞市景。</span></div></div>
+  </div>
+</div>
+
+<div class="day-card transit">
+  <div class="day-header transit-hdr">
+    <div class="day-num">D7</div>
+    <div class="day-title"><div class="day-date">4/02 (四) 移動日</div><h2>鬥牛場 · 飛往里斯本</h2></div>
+  </div>
+  <div class="timeline">
+    <div class="item"><div class="time">09:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>馬埃斯特蘭薩鬥牛場 (Plaza de Toros)</span><span class="spot-detail">西班牙最古老鬥牛場，參觀巴洛克式華麗建築。</span></div></div>
+    <div class="item"><div class="time">14:25</div><div class="desc"><span class="spot-name">✈ 飛往里斯本 (FR3663)</span><span class="spot-detail">15:35 抵達，前往市區飯店辦理入住。</span></div></div>
+  </div>
+  <div class="hotel-info">🛏 住宿：The Verse (精品飯店)</div>
+</div>
+
+<div class="day-card lisbon">
+  <div class="day-header lisbon-hdr">
+    <div class="day-num">D8</div>
+    <div class="day-title"><div class="day-date">4/03 (五) 辛特拉</div><h2>全日包車 · 佩納宮 · 羅卡角</h2></div>
+  </div>
+  <div class="timeline">
+    <div class="item"><div class="time">全日</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>辛特拉經典遊 (世界遺產)</span><span class="spot-detail">包車直達佩納宮、摩爾人城堡、雷加萊拉莊園。</span></div></div>
+    <div class="item"><div class="time">下午</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>羅卡角 & 卡斯卡伊斯</span><span class="spot-detail">歐洲大陸最西端，「地獄之口」自然奇觀。</span></div></div>
+  </div>
+</div>
+
+<div class="day-card lisbon">
+  <div class="day-header lisbon-hdr">
+    <div class="day-num">D9</div>
+    <div class="day-title"><div class="day-date">4/04 (六) 里斯本</div><h2>聖若熱城堡 · 修道院 · 蛋塔</h2></div>
+  </div>
+  <div class="timeline">
+    <div class="item"><div class="time">09:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>聖若熱城堡 (Castelo S. Jorge)</span><span class="spot-detail">里斯本最古老要塞，俯瞰太加斯河美景。</span></div></div>
+    <div class="item"><div class="time">13:00</div><div class="desc"><span class="spot-name"><span class="tag tag-food">美食</span>Sála de João Sá</span><span class="spot-detail">備受推崇的創意葡式料理，位於歷史城區。</span></div></div>
+    <div class="item"><div class="time">15:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>熱羅尼莫斯修道院 & 貝倫蛋塔</span><span class="spot-detail">必吃正宗老店蛋塔，參觀曼努埃爾式迴廊。</span></div></div>
+  </div>
+</div>
+
+<div class="day-card transit">
+  <div class="day-header transit-hdr">
+    <div class="day-num">D10</div>
+    <div class="day-title"><div class="day-date">4/05 (日) 移動日</div><h2>火車往波爾圖 · 蛋塔課程</h2></div>
+  </div>
+  <div class="timeline">
+    <div class="item"><div class="time">11:30</div><div class="desc"><span class="spot-name">🚄 城際火車往波爾圖</span><span class="spot-detail">14:43 抵達波爾圖 Campanhã 站。</span></div></div>
+    <div class="item"><div class="time">17:30</div><div class="desc"><span class="spot-name"><span class="tag tag-food">體驗</span>Pastel de Nata 蛋塔製作課</span><span class="spot-detail">親手製作葡萄牙國民甜點 (至 20:15)。</span></div></div>
+  </div>
+  <div class="hotel-info">🛏 住宿：Groove-Wood (設計公寓)</div>
+</div>
+
+<div class="day-card porto">
+  <div class="day-header porto-hdr">
+    <div class="day-num">D11</div>
+    <div class="day-title"><div class="day-date">4/06 (一) 波爾圖</div><h2>杜羅河谷全日遊船</h2></div>
+  </div>
+  <div class="timeline">
+    <div class="item"><div class="time">11:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>杜羅河谷遊船 (含美食午餐)</span><span class="spot-detail">飽覽世界遺產梯田美景，參訪酒莊品嚐波特酒。</span></div></div>
+  </div>
+</div>
+
+<div class="day-card porto">
+  <div class="day-header porto-hdr">
+    <div class="day-num">D12</div>
+    <div class="day-title"><div class="day-date">4/07 (二) 波爾圖</div><h2>萊羅書店 · 黑暗晚餐</h2></div>
+  </div>
+  <div class="walk-warn">⚠️ 波爾圖坡道多，步行導覽結束後請適度休息。</div>
+  <div class="timeline">
+    <div class="item"><div class="time">09:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>萊羅書店 & 文書塔</span><span class="spot-detail">全球最美書店、波爾圖地標塔樓鳥瞰全市。</span></div></div>
+    <div class="item"><div class="time">13:00</div><div class="desc"><span class="spot-name"><span class="tag tag-food">美食</span>Mercado do Bolhão</span><span class="spot-detail">在最道地的傳統市場內享用新鮮海鮮午餐。</span></div></div>
+    <div class="item"><div class="time">15:00</div><div class="desc"><span class="spot-name"><span class="tag tag-food">導覽</span>Mercado do Bolhão</span><span class="spot-detail">愛爾蘭導遊Caoimhín帶領，涵蓋波爾圖歷史核心的精華景點。</span></div></div>
+    <div class="item"><div class="time">19:00</div><div class="desc"><span class="spot-name"><span class="tag tag-food">美食</span>Blindness 黑暗晚餐</span><span class="spot-detail">諾貝爾獎文學靈感，全黑暗中的感官味覺體驗。</span></div></div>
+  </div>
+</div>
+
+<div class="day-card transit">
+  <div class="day-header transit-hdr">
+    <div class="day-num">D13</div>
+    <div class="day-title"><div class="day-date">4/08 (三) 移動日</div><h2>飛巴塞隆納 · 音樂宮 · 舞劇</h2></div>
+  </div>
+  <div class="timeline">
+    <div class="item"><div class="time">12:00</div><div class="desc"><span class="spot-name">✈ 飛往巴塞隆納 (FR4584)</span><span class="spot-detail">14:45 抵達，前往市區飯店辦理入住。</span></div></div>
+    <div class="item"><div class="time">17:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>加泰隆尼亞音樂宮導覽</span><span class="spot-detail">世界遺產，新藝術建築與彩色玻璃穹頂。</span></div></div>
+    <div class="item"><div class="time">20:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>Gran Gala Flamenco</span><span class="spot-detail">在音樂宮欣賞熱情奔放的佛朗明哥歌舞秀。</span></div></div>
+  </div>
+  <div class="hotel-info">🛏 住宿：NH Collection Podium</div>
+</div>
+
+<div class="day-card barcelona">
+  <div class="day-header barcelona-hdr">
+    <div class="day-num">D14</div>
+    <div class="day-title"><div class="day-date">4/09 (四) 巴塞隆納</div><h2>聖家堂 · 聖保羅醫院 · 歌德區</h2></div>
+  </div>
+  <div class="timeline">
+    <div class="item"><div class="time">09:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>聖家堂 (Sagrada Família)</span><span class="spot-detail">高第最偉大建築傑作，含語音導覽與塔樓。</span></div></div>
+    <div class="item"><div class="time">12:00</div><div class="desc"><span class="spot-name"><span class="tag tag-food">美食</span>EL BUND 18</span><span class="spot-detail">精緻亞洲融合料理，提供創意東西方菜餚。</span></div></div>
+    <div class="item"><div class="time">13:30</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>聖保羅醫院 (Hospital de Sant Pau)</span><span class="spot-detail">超美新藝術運動醫院，現為世界遺產文化中心。</span></div></div>
+    <div class="item"><div class="time">15:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">導覽</span>歌德區深度私人導覽 (Hospital de Sant Pau)</span><span class="spot-detail">台灣私人導遊帶領探索巴塞隆納歷史核心。</span></div></div>
+  </div>
+</div>
+
+<div class="day-card barcelona">
+  <div class="day-header barcelona-hdr">
+    <div class="day-num">D15</div>
+    <div class="day-title"><div class="day-date">4/10 (五) 巴塞隆納</div><h2>班克西美術館 · 伴手禮採購</h2></div>
+  </div>
+  <div class="timeline">
+    <div class="item"><div class="time">10:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">景點</span>班克西美術館 (Museu Banksy)</span><span class="spot-detail">沉浸式展覽，探索街頭藝術大師的當代作品。</span></div></div>
+    <div class="item"><div class="time">12:00</div><div class="desc"><span class="spot-name"><span class="tag tag-food">美食</span>Poca-Solta (午餐)</span><span class="spot-detail">在地知名加泰隆尼亞風小館，品嚐當季料理。</span></div></div>
+    <div class="item"><div class="time">14:00</div><div class="desc"><span class="spot-name"><span class="tag tag-spot">購物</span>英國宮百貨 (El Corte Inglés)</span><span class="spot-detail">採購伴手禮：伊比利火腿、橄欖油、海鹽。</span></div></div>
+  </div>
+</div>
+</body>
+</html>
