@@ -1059,5 +1059,27 @@
   }
   document.getElementById('d1').classList.add('open');
 </script>
+<script>
+(function() {
+  // 日期範圍設定
+  const tripStart = new Date('2026-03-27');
+  const tripEnd = new Date('2026-04-12');
+  const today = new Date();
+  
+  // 只取日期部分（避免不同時區導致誤差）
+  function fmt(d){
+    return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  }
+  const t = fmt(today);
+  const s = fmt(tripStart);
+  const e = fmt(tripEnd);
+
+  // 關閉所有卡片
+  function closeAllCards() {
+    document.querySelectorAll('.day-card').forEach(card => {
+      card.classList.remove('open');
+    });
+  }
+</script>
 </body>
 </html>
